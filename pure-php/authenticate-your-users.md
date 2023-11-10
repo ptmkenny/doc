@@ -193,7 +193,7 @@ declare(strict_types=1);
 
 use Webauthn\AuthenticatorAssertionResponse;
 
-if (!$publicKeyCredentialinstanceof->response AuthenticatorAssertionResponse) {
+if (!$publicKeyCredential instanceof->response AuthenticatorAssertionResponse) {
     //e.g. process here with a redirection to the public key login/MFA page. 
 }
 ```
